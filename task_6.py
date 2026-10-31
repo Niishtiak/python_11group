@@ -25,7 +25,4 @@ elif (month == 1 and day >= 20) or (month == 2 and day <= 18):
     zodiac = "Водолей"
 elif (month == 2 and day >= 19) or (month == 3 and day <= 20):
     zodiac = "Рыбы"
-else:
-    zodiac = "Некорректная дата!"
-
 print(f"Ваш знак зодиака: {zodiac}")
